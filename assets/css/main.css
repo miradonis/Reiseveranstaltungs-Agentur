@@ -31,12 +31,19 @@ html {
     box-sizing: border-box;
 }
 
+header, h2, footer, .logo {
+    font-family: Cinzel-Variable;
+}
+
+li, .h2__text p {
+    font-family: Poppins;
+}
+
 /*
 ===============HEADER===============
 */
 body .logo {
     color: #999;
-    font-family: Cinzel-Variable;
     font-size: 3rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -44,22 +51,21 @@ body .logo {
 }
 
 body header {
-    height: 85vh;
+    padding-bottom: 35vh;
     margin-top: 4vh;
     background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: Cinzel-Variable;
     text-align: center;
 }
 
 body header h2 {
-    width: 42vw;
+    width: 46vw;
     font-size: 7rem;
     color: #fff;
     margin: 0 auto;
-    padding: 32vh 10vw 10vh 10vw;
+    padding: 40vh 10vw 10vh 10vw;
 }
 
 
@@ -71,7 +77,6 @@ body section .h2__text  {
 }
 
 body section .h2__text h2 {
-    font-family: Cinzel-Variable;
     font-size: 4rem;
     color: #333;
     padding: 12vh 0 8vh 0;
@@ -79,9 +84,8 @@ body section .h2__text h2 {
 
 body section .h2__text p {
     width: 60vw;
-    font-family: Poppins;
     font-size: 1.5rem;
-    margin: 7vh auto 7vh auto;
+    margin: 2vh auto 16vh auto;
 }
 
 body section .pic {
@@ -89,7 +93,7 @@ body section .pic {
 }
 
 body section .pic img {
-    margin: 4vh ;
+    margin: 4vh;
 }
 
 /*
@@ -97,7 +101,6 @@ body section .pic img {
 */
 body section:nth-of-type(2) h2 {
     text-align: center;
-    font-family: Cinzel-Variable;
     font-size: 4rem;
     padding: 15vh 0 3vh 0;
 }
@@ -111,7 +114,6 @@ body section:nth-of-type(2) ul {
 }
 
 body section:nth-of-type(2) ul li {
-    font-family: Poppins;
     font-size: 2rem;
     list-style: none;
     word-spacing: 4px;
@@ -139,7 +141,6 @@ body section:nth-of-type(2) article .available::after {
 body footer {
     padding: 5vh 0;
     border-top: 1px solid #ccc;
-    font-family: Cinzel-Variable;
     font-size: 3rem;
     text-align: center;
 }
