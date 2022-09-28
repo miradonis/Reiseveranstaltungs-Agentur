@@ -1,0 +1,161 @@
+/*
+==============ASSETS==============
+Font: Cinzel, poppins. 
+border: #ccc;
+color logo: #999; 
+color home: #fff; 
+color: #333
+*/
+
+/*
+===============GENERAL===============
+*/
+
+@font-face {
+    font-family: Cinzel-Variable;
+    src: url("../font/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+===============HEADER===============
+*/
+body .logo {
+    color: #999;
+    font-family: Cinzel-Variable;
+    font-size: 3rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 5vh 0 2vh 3vw;
+}
+
+body header {
+    height: 85vh;
+    margin-top: 4vh;
+    background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Cinzel-Variable;
+    text-align: center;
+}
+
+body header h2 {
+    width: 42vw;
+    font-size: 7rem;
+    color: #fff;
+    margin: 0 auto;
+    padding: 32vh 10vw 10vh 10vw;
+}
+
+
+/*
+===============SECTION WITH TEXT AND PCTURES===============
+*/
+body section .h2__text  {
+    text-align: center;
+}
+
+body section .h2__text h2 {
+    font-family: Cinzel-Variable;
+    font-size: 4rem;
+    color: #333;
+    padding: 12vh 0 8vh 0;
+}
+
+body section .h2__text p {
+    width: 60vw;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin: 7vh auto 7vh auto;
+}
+
+body section .pic {
+    text-align: center;
+}
+
+body section .pic img {
+    margin: 4vh ;
+}
+
+/*
+===============TOUR DATES===============
+*/
+body section:nth-of-type(2) h2 {
+    text-align: center;
+    font-family: Cinzel-Variable;
+    font-size: 4rem;
+    padding: 15vh 0 3vh 0;
+}
+
+body section:nth-of-type(2) article {
+    padding-bottom: 25vh;
+}
+
+body section:nth-of-type(2) ul {
+    padding: 2vh 0 0 6vw;
+}
+
+body section:nth-of-type(2) ul li {
+    font-family: Poppins;
+    font-size: 2rem;
+    list-style: none;
+    word-spacing: 4px;
+    margin-top: 2vh;
+}
+
+body section:nth-of-type(2) article .sold__out::after {
+    content: " - SOLD OUT";
+    color: red;
+}
+
+body section:nth-of-type(2) article .only__for::after {
+    content: " - ONLY 4 SPOT AVAILABLE";
+    color: red;
+}
+
+body section:nth-of-type(2) article .available::after {
+    content: " - AVAILABLE";
+    color: green;
+}
+
+/*
+===============TOUR DATES===============
+*/
+body footer {
+    padding: 5vh 0;
+    border-top: 1px solid #ccc;
+    font-family: Cinzel-Variable;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 2vw 2vw 0 2vw;
+}
+
+body footer ul li img {
+    height: 5vh;
+    width: auto;
+}
+
+body footer ul li img:hover {
+    height: 6vh;
+    width: auto;
+}
